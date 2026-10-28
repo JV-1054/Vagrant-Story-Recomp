@@ -1,0 +1,45 @@
+# Autofilled from the supplied Vagrant Story (USA, Canada) disc image.
+
+[game]
+name = "Vagrant Story"
+id = "SLUS-01040"
+players = 1
+exe = "disc/SLUS_010.40"
+disc = "isos/Vagrant Story (USA, Canada).cue"
+load_address = "0x80010000"
+entry_pc = "0x8001F544"
+text_size = "0x00052000"
+stack_base = "0x801FFFF0"
+
+# Digests cover the complete raw MODE2/2352 Track 01 image.
+[prepare_disc]
+out_dir = "disc"
+bin_name = "Vagrant Story (USA, Canada).bin"
+cue_name = "Vagrant Story (USA, Canada).cue"
+boot_exe = "SLUS_010.40"
+known_sizes = [750643152]
+known_md5 = ["8531bc73ea7cd33a4c8e97bdf139ba9c"]
+known_sha1 = ["38c63db6c49a06b91d87cd5a4e31b1ec68fe212c"]
+known_crc32 = ["eb695a2e"]
+
+[recompiler]
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+window_title = "Vagrant Story Recompiled"
+memcard_dir = "saves"
+overlay_cache = true
+
+[video]
+renderer = "opengl"
+aspect_ratio = "4:3"
+
+[controller]
+default_mode = "digital"
+
+# This supplied image contains one MODE2/2352 data track.
+[netplay]
+require_cue = true
+required_tracks = 1

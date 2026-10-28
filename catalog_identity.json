@@ -1,0 +1,47 @@
+{
+  "format_version": 1,
+  "game": {
+    "name": "Vagrant Story",
+    "id": "SLUS-01040",
+    "boot_exe": "SLUS_010.40"
+  },
+  "marketing": {
+    "description": "",
+    "publisher": "Square",
+    "year": "1998",
+    "region": "USA/Canada",
+    "players": 1
+  },
+  "rom_identity": {
+    "cue_name": "Vagrant Story (USA, Canada).cue",
+    "bin_name": "Vagrant Story (USA, Canada).bin",
+    "track_counts": [
+      1
+    ],
+    "require_cue": true,
+    "data_track": {
+      "size": 750643152,
+      "md5": "8531bc73ea7cd33a4c8e97bdf139ba9c",
+      "sha1": "38c63db6c49a06b91d87cd5a4e31b1ec68fe212c",
+      "crc32": "eb695a2e"
+    }
+  },
+  "exe": {
+    "load_address": "0x80010000",
+    "entry_pc": "0x8001F544",
+    "text_size": "0x00052000",
+    "stack_base": "0x801FFFF0",
+    "boot_exe_sha256": "51dfdf15a58f7de8505742b5050de2951b133ed5ce801b08bff7f60b76e5d1bf"
+  },
+  "seeds": {
+    "count": 503,
+    "source": "boot_exe_jal"
+  },
+  "warnings": [
+    "The supplied CUE has one MODE2/2352 data track."
+  ],
+  "notes": [
+    "EXE values and boot serial read from the supplied disc image.",
+    "Seeds are first-pass boot-EXE JAL targets (+ entry); overlays and runtime paths remain undiscovered."
+  ]
+}

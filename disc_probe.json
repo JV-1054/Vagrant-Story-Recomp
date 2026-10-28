@@ -1,0 +1,29 @@
+{
+  "cue_path": "isos/Vagrant Story (USA, Canada).cue",
+  "cue_name": "Vagrant Story (USA, Canada).cue",
+  "bin_name": "Vagrant Story (USA, Canada).bin",
+  "track_count": 1,
+  "data_track_size": 750643152,
+  "data_track_md5": "8531bc73ea7cd33a4c8e97bdf139ba9c",
+  "data_track_sha1": "38c63db6c49a06b91d87cd5a4e31b1ec68fe212c",
+  "data_track_crc32": "eb695a2e",
+  "boot_exe": "SLUS_010.40",
+  "serial": "SLUS-01040",
+  "serial_exe": "SLUS_010.40",
+  "volume_id": "VAGRANT_STORY",
+  "display_name": "Vagrant Story",
+  "load_address": "0x80010000",
+  "entry_pc": "0x8001F544",
+  "text_size": "0x00052000",
+  "stack_base": "0x801FFFF0",
+  "require_cue": true,
+  "boot_exe_sha256": "51dfdf15a58f7de8505742b5050de2951b133ed5ce801b08bff7f60b76e5d1bf",
+  "seed_count": 503,
+  "warnings": [
+    "cue has only 1 TRACK \u2014 Track-01-only dumps fail multi-track netplay/catalog gates; a complete multi-track Redump cue may be needed for those gates."
+  ],
+  "notes": [
+    "EXE values read from the PS-X EXE header.",
+    "Seeds are first-pass boot-EXE JAL targets (+ entry); overlays / runtime paths remain undiscovered."
+  ]
+}

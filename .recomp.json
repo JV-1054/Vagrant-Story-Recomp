@@ -1,0 +1,13 @@
+{
+  "$schema": "https://recomp.fyi/schema/v1.json",
+  "game": "Vagrant Story",
+  "system": "PS1",
+  "type": "recomp",
+  "toolchain": "psxrecomp",
+  "status": "exploring",
+  "project": "Vagrant Story Recomp",
+  "original": {
+    "region": "USA/Canada",
+    "serial": "SLUS-01040"
+  }
+}

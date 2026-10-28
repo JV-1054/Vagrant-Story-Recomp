@@ -1,0 +1,10 @@
+# Vagrant Story — progressive symbol map (partial decomp)
+# Discover → label here → manipulate via PSX_FN_*.
+# Gate emit=true only when an entry is safe to own for AOT / host hooks.
+
+[[func]]
+pc = 0x8001F544
+name = "BootEntry"
+emit = false
+status = "guessed"
+note = "SYSTEM.CNF / PS-X EXE entry PC (probe seed)"
