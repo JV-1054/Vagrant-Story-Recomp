@@ -38,6 +38,7 @@ aspect_ratio = "4:3"
 
 [controller]
 default_mode = "digital"
+default_p1_device = "gamepad"
 
 # This supplied image contains one MODE2/2352 data track.
 [netplay]

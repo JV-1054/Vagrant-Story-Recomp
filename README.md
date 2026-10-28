@@ -16,6 +16,12 @@ cmake -S . -B build-vagrant-story -G Ninja -DCMAKE_BUILD_TYPE=Release -DPSX_REWI
 cmake --build build-vagrant-story --target psx-runtime --parallel 12
 ```
 
+## Controller support
+
+Player 1 defaults to the first connected game controller. Connect a controller
+before launching the game; controller button mappings can be edited in
+`input.ini` beside the executable. The PlayStation pad defaults to digital mode.
+
 The project config points to `isos/Vagrant Story (USA, Canada).cue`, which
 references `Vagrant Story (USA, Canada).bin` in the same directory. The supplied
 image is a single-track MODE2/2352 dump. Disc files are local inputs and are not
